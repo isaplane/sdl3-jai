@@ -30,8 +30,8 @@ cmake --build . --config Release --parallel
 
 SDL_image build commands (assuming SDL and SDL_image root are at same directory level):
 #+begin_src
-git clone https://github.com/libsdl-org/SDL
-cd SDL
+git clone https://github.com/libsdl-org/SDL_image
+cd SDL_image
 mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DSDL3_DIR=../SDL/build -DBUILD_SHARED_LIBS=ON

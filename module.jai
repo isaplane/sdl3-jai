@@ -1,5 +1,3 @@
-// Based on commit 7959b08a4db6e7646be7867a5c3b4d4f546eb85b on 11/14/24
-
 #load "SDL_platform.jai";
 #load "SDL_error.jai";
 #load "SDL_init.jai";
@@ -44,7 +42,3 @@
 }
 
 // main :: () {}
-
-// Local Variables:
-// compile-command: "jai module.jai"
-// End:
