@@ -40,5 +40,3 @@
     #library,system,link_always "libm";
     #library,system,link_always "libpthread";
 }
-
-// main :: () {}
